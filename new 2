@@ -25,7 +25,7 @@
 	<img src="img/eevee.png" alt="Cafe Eevee" width="135" height="150">
 
 <!--Esto es una imagen que tiene un hipervinculo cuando tu le das te lleva lo que tenga de referencia-->
-<a href="https://www.youtube.com/c/YeraySL09" target="_top">
+<a href="https://www.youtube.com/c/YeraySL09">
   <img src="img/zig.gif" alt="HTML tutorial" style="width:170px;height:135px;">
 </a>
 
@@ -34,7 +34,7 @@
 
 <ul>
 <!--Esto un elemento de la lista con un hipervínculo que puede coger un archivo o un link de referencia-->
-  <li>Suscribete a mi <b><a href="https://www.youtube.com/c/YeraySL09">canal</b></a></li>
+  <li>Suscribete a mi <b><a href="https://www.youtube.com/c/YeraySL09">canal	</b></a></li>
 </ul>
 <!--Esto una lista ordenada-->
 	<p><b>Bol de cereales con leche</b></p>
