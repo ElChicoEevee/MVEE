@@ -3,9 +3,19 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <style>
+@font-face {
+    font-family: 'Helvetica Neue LT Pro';
+    src: url('HelveticaNeueLTPro-XBlkCn.woff2') format('woff2'),
+        url('HelveticaNeueLTPro-XBlkCn.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 th, p, h1 {
+  font-family: 'Helvetica Neue LT Pro';
   text-align: center;
   color: #f1faee;
+  font-size: 20px;
 }
 table, th, td {
   border: 3px solid black;
@@ -19,6 +29,7 @@ table, th, td {
   visibility: hidden;
 }
 td {
+  font-family: 'Helvetica Neue LT Pro';
   background-color: #f1faee;
   text-align: center;
   color: #1d3557;
@@ -39,20 +50,19 @@ body {
 	<title>ElChicoEevee</title>
 </head>
 <body>
-<b>
  <h1><img src="moduleimg/banner.png" style="width:722px;height:180px;"></h1>
  <p>Click the Zigzagoon for Download MVEE (24/09/2020)
  <br>
- <a href="download/mvee.rar" target="_top">
+ <a href="download/mvee.rar" 	target="_top">
   <img src="img/zig.gif" alt="Download Button" style="width:170px;height:135px;">
 </a>
- <br>Right now I am working on...
+ <br> <br>Right now I am working on...
  <br>
   <img src="workingon/rin.png" alt="Rin" style="width:120px;height:120px;">
   <img src="workingon/len.png" alt="Len" style="width:120px;height:120px;">
   <img src="workingon/ichika.png" alt="Ichika" style="width:120px;height:120px;">
  <br>Rin and Len Vivid Bad Squad outfits*<br><br>
- <button onclick="myFunction()"><b>Click to see the Module List</button>
+ <button onclick="myFunction()" font="Helvetica Neue LT Pro"><b>Click here to see the Module List</button>
  <div id="myDIV">
 <table class="center" style="width:35%">
   <tr>
@@ -68,10 +78,9 @@ body {
   <tr>
     <td><img src="moduleimg/vbsmiku.png" style="width:155px;height:190px;"><br>Urban Style Miku✅</td>
     <td><img src="moduleimg/vbsmeiko.png" style="width:155px;height:190px;"><br>Urban Style Meiko✅</td>
-    <td><img src="moduleimg/vbsmeiko.png" style="width:155px;height:190px;"><br>Urban Style Meiko✅</td>
+    <td><img src="moduleimg/unknown.PNG" style="width:155px;height:190px;"><br>Urban Style Rin❌</td>
   </tr>
   <tr>
-    <td><img src="moduleimg/unknown.PNG" style="width:155px;height:190px;"><br>Urban Style Rin❌</td>
     <td><img src="moduleimg/unknown.PNG" style="width:155px;height:190px;"><br>Urban Style Len❌</td>
     <td><img src="moduleimg/unknown.PNG" style="width:155px;height:190px;"><br>Hoshino Ichika❌</td>
   </tr>
@@ -81,10 +90,10 @@ body {
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
-  if (x.style.visibility === "hidden") {
-    x.style.visibility = "visible";
-  } else {
+  if (x.style.visibility === "visible") {
     x.style.visibility = "hidden";
+  } else {
+    x.style.visibility = "visible";
   }
 }
 </script>
